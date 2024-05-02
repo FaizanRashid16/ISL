@@ -1,7 +1,8 @@
 streamlit
-cv2
+opencv-python
 numpy
 pyttsx3
 tensorflow
-speech_recognition
-PIL
+SpeechRecognition
+pillow
+PyAudio
