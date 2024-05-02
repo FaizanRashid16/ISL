@@ -6,9 +6,9 @@ import os
 def sign_to_speech():
     result_label.text("Sign to Speech selected")
 
-    script_dir = os.path.dirname(os.path.abspath(__file__))
+    # script_dir = SignToSpeech
 
-    speech_to_sign_dir = os.path.join(script_dir, "SignToSpeech")
+    speech_to_sign_dir = os.path("SignToSpeech")
     os.chdir(speech_to_sign_dir)
     subprocess.Popen(["streamlit", "run", "app.py"])
 
