@@ -1,0 +1,7 @@
+streamlit
+cv2
+numpy
+pyttsx3
+tensorflow
+speech_recognition
+PIL
